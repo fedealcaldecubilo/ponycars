@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>amor por los autos</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pony cars</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 100px;
+            text-align: center;
+        }
+        .gallery {
+            display: none;
+            margin-top: 20px;
+        }
+        .gallery img {
+            max-width: 100%;
+            margin-bottom: 10px;
+        }
+    </style>
+    <script>
+        function mostrarGaleria() {
+            var galeria = document.querySelector('.gallery');
+            galeria.style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <h1>pony cars</h1>
+    <button onclick="mostrarGaleria()">ver fotos</button>
+    <div class="gallery">
+        <img src=https://tse2.mm.bing.net/th?id=OIP.v25OYu2U7rOpS2TFs-7jMwHaE6&pid=Api&P=0&h=180 alt="Imagen 1">
+        <img src=https://tse2.mm.bing.net/th?id=OIP.vsW0wL6wZ9fy-lzQsnUjsgHaEK&pid=Api&P=0&h=180 alt="Imagen 2">
+        <img src=https://tse1.mm.bing.net/th?id=OIP.Cvywp7YbgomSj0_soE3jRgHaD8&pid=Api&P=0&h=180 alt="Imagen 3">
+        <!-- Añade más imágenes según sea necesario -->
+    </div>
+</body>
+</html>
